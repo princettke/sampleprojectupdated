@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NayePankh Foundation — Empowering youth through internships, mentorship, and community impact." />
+  <title>NayePankh Foundation — Empowering Youth, Transforming Lives</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Scroll progress bar -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="NayePankh Foundation home">
+        <span class="logo-mark"><i class="fa-solid fa-feather"></i></span>
+        <span class="logo-text">Naye<span>Pankh</span></span>
+      </a>
+
+      <nav aria-label="Primary">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#programs" class="nav-link">Programs</a></li>
+          <li><a href="#why" class="nav-link">Why Us</a></li>
+          <li><a href="#impact" class="nav-link">Impact</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#testimonials" class="nav-link">Voices</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm hide-mobile">Donate</a>
+        <button id="hamburger" class="icon-btn hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-floaters" aria-hidden="true">
+      <div class="floater f1"></div>
+      <div class="floater f2"></div>
+      <div class="floater f3"></div>
+    </div>
+
+    <div class="container hero-content">
+      <span class="eyebrow reveal">Non-Profit • Youth Empowerment</span>
+      <h1 class="hero-title reveal">
+        <span id="typed"></span><span class="cursor" aria-hidden="true">|</span>
+      </h1>
+      <p class="hero-subtitle reveal">
+        NayePankh Foundation nurtures ambitious young minds with real-world skills,
+        mentorship, and opportunities — building tomorrow's leaders, innovators, and
+        change-makers today.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fa-solid fa-hand-holding-heart"></i> Join Us
+        </a>
+        <a href="#about" class="btn btn-outline">
+          Learn More <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="hero-stats reveal">
+        <div><strong>500+</strong><span>Interns</span></div>
+        <div><strong>50+</strong><span>Communities</span></div>
+        <div><strong>100+</strong><span>Events</span></div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="about-visual reveal">
+        <div class="about-img-wrap">
+          <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80"
+               alt="Volunteers of NayePankh Foundation collaborating with youth" loading="lazy" />
+        </div>
+        <div class="about-badge">
+          <i class="fa-solid fa-seedling"></i>
+          <div><strong>Since 2019</strong><span>Growing every year</span></div>
+        </div>
+      </div>
+
+      <div class="about-copy reveal">
+        <span class="eyebrow">About Us</span>
+        <h2>Wings of possibility for every young dreamer.</h2>
+        <p>
+          NayePankh Foundation is a youth-focused non-profit dedicated to bridging the gap
+          between education and opportunity. We equip students and early-career professionals
+          with practical skills, industry mentorship, and community projects that create
+          lasting impact.
+        </p>
+
+        <div class="mv-grid">
+          <div class="mv-card">
+            <i class="fa-solid fa-bullseye"></i>
+            <h3>Mission</h3>
+            <p>Empower one million young minds with the tools, mentorship, and confidence to lead meaningful change.</p>
+          </div>
+          <div class="mv-card">
+            <i class="fa-solid fa-eye"></i>
+            <h3>Vision</h3>
+            <p>A world where every young person, regardless of background, has wings to fly toward their potential.</p>
+          </div>
+        </div>
+
+        <ul class="values">
+          <li><i class="fa-solid fa-check"></i> Integrity</li>
+          <li><i class="fa-solid fa-check"></i> Inclusion</li>
+          <li><i class="fa-solid fa-check"></i> Innovation</li>
+          <li><i class="fa-solid fa-check"></i> Impact</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section id="programs" class="section section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Programs</span>
+        <h2>Learn, build, and lead with our flagship tracks.</h2>
+        <p>Hands-on programs designed with industry mentors to turn curiosity into capability.</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card reveal">
+          <div class="card-icon icon-blue"><i class="fa-solid fa-briefcase"></i></div>
+          <h3>Technical Internship</h3>
+          <p>Real-world assignments, code reviews, and a verified completion certificate.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon icon-green"><i class="fa-solid fa-code"></i></div>
+          <h3>Frontend Development</h3>
+          <p>Master HTML, CSS, JavaScript, and modern UI patterns through guided projects.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon icon-amber"><i class="fa-solid fa-globe"></i></div>
+          <h3>Web Development</h3>
+          <p>Full-stack fundamentals — from responsive design to APIs and deployment.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon icon-blue"><i class="fa-solid fa-brain"></i></div>
+          <h3>Artificial Intelligence</h3>
+          <p>Explore ML foundations, prompt engineering, and applied AI project work.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon icon-green"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Data Analytics</h3>
+          <p>From raw data to insight — Python, SQL, dashboards, and storytelling.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon icon-amber"><i class="fa-solid fa-people-group"></i></div>
+          <h3>Community Outreach</h3>
+          <p>Grassroots initiatives that carry classroom learning into neighborhoods.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose -->
+  <section id="why" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Why NayePankh</span>
+        <h2>Built for outcomes, not just certificates.</h2>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature reveal"><i class="fa-solid fa-award"></i><h3>Internship Certificate</h3><p>Industry-recognized verified certification.</p></div>
+        <div class="feature reveal"><i class="fa-solid fa-user-tie"></i><h3>Industry Mentorship</h3><p>1:1 guidance from senior professionals.</p></div>
+        <div class="feature reveal"><i class="fa-solid fa-diagram-project"></i><h3>Live Projects</h3><p>Ship real products used by real users.</p></div>
+        <div class="feature reveal"><i class="fa-solid fa-graduation-cap"></i><h3>Skill Development</h3><p>Curriculum tuned to what employers seek.</p></div>
+        <div class="feature reveal"><i class="fa-solid fa-compass"></i><h3>Career Guidance</h3><p>Resume, interviews, and placement support.</p></div>
+        <div class="feature reveal"><i class="fa-solid fa-heart"></i><h3>Community Impact</h3><p>Every project uplifts a real community.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact -->
+  <section id="impact" class="section impact-section">
+    <div class="container">
+      <div class="section-head reveal light">
+        <span class="eyebrow light">Our Impact</span>
+        <h2>Numbers that tell a story of transformation.</h2>
+      </div>
+      <div class="counters">
+        <div class="counter reveal">
+          <strong class="count" data-target="500">0</strong><span>+ Interns</span>
+        </div>
+        <div class="counter reveal">
+          <strong class="count" data-target="1000">0</strong><span>+ Students Empowered</span>
+        </div>
+        <div class="counter reveal">
+          <strong class="count" data-target="100">0</strong><span>+ Events</span>
+        </div>
+        <div class="counter reveal">
+          <strong class="count" data-target="50">0</strong><span>+ Communities Served</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Gallery</span>
+        <h2>Moments from our journey.</h2>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80" alt="Students collaborating during a workshop" /></figure>
+        <figure class="gallery-item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?auto=format&fit=crop&w=800&q=80" alt="Community outreach event volunteers" /></figure>
+        <figure class="gallery-item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80" alt="Coding bootcamp session" /></figure>
+        <figure class="gallery-item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=800&q=80" alt="Mentorship discussion" /></figure>
+        <figure class="gallery-item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Team celebrating project launch" /></figure>
+        <figure class="gallery-item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Interns presenting their work" /></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Voices</span>
+        <h2>Stories from our community.</h2>
+      </div>
+
+      <div class="testimonials">
+        <article class="t-card reveal">
+          <i class="fa-solid fa-quote-left quote"></i>
+          <p>"NayePankh gave me my first real project experience. The mentors treated us like teammates, not students."</p>
+          <div class="t-author">
+            <img loading="lazy" src="https://i.pravatar.cc/100?img=32" alt="Ananya Sharma" />
+            <div><strong>Ananya Sharma</strong><span>Frontend Intern, 2024</span></div>
+          </div>
+        </article>
+        <article class="t-card reveal">
+          <i class="fa-solid fa-quote-left quote"></i>
+          <p>"The AI track was rigorous and rewarding. I walked away with a portfolio and a full-time offer."</p>
+          <div class="t-author">
+            <img loading="lazy" src="https://i.pravatar.cc/100?img=12" alt="Rohit Verma" />
+            <div><strong>Rohit Verma</strong><span>AI Program Alumnus</span></div>
+          </div>
+        </article>
+        <article class="t-card reveal">
+          <i class="fa-solid fa-quote-left quote"></i>
+          <p>"Their community outreach reached villages we never imagined. Genuine impact, done with heart."</p>
+          <div class="t-author">
+            <img loading="lazy" src="https://i.pravatar.cc/100?img=47" alt="Priya Nair" />
+            <div><strong>Priya Nair</strong><span>Community Partner</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <span class="eyebrow">Contact</span>
+        <h2>Let's build something meaningful together.</h2>
+        <p>Have a question, partnership idea, or want to volunteer? We'd love to hear from you.</p>
+
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-location-dot"></i> New Delhi, India</li>
+          <li><i class="fa-solid fa-envelope"></i> hello@nayepankh.org</li>
+          <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+        </ul>
+
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required minlength="2" placeholder="Your full name" />
+          <small class="error"></small>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com" />
+          <small class="error"></small>
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" placeholder="+91 ..." />
+          <small class="error"></small>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required minlength="10" placeholder="How can we help?"></textarea>
+          <small class="error"></small>
+        </div>
+        <button class="btn btn-primary btn-block" type="submit">
+          Send Message <i class="fa-solid fa-paper-plane"></i>
+        </button>
+        <p class="form-success" id="formSuccess" role="status" hidden>Thanks! We'll reply within 48 hours.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo footer-logo">
+          <span class="logo-mark"><i class="fa-solid fa-feather"></i></span>
+          <span class="logo-text">Naye<span>Pankh</span></span>
+        </a>
+        <p class="muted">Empowering youth. Transforming lives. Building futures with heart and skill.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul><li><a href="#about">About</a></li><li><a href="#programs">Programs</a></li><li><a href="#impact">Impact</a></li><li><a href="#contact">Contact</a></li></ul>
+      </div>
+      <div>
+        <h4>Programs</h4>
+        <ul><li><a href="#programs">Frontend</a></li><li><a href="#programs">Web Dev</a></li><li><a href="#programs">AI</a></li><li><a href="#programs">Data Analytics</a></li></ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <div class="socials small">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© <span id="year"></span> NayePankh Foundation. All rights reserved.</p>
+      <p class="muted">Crafted with care for a better tomorrow.</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
